@@ -1,0 +1,43 @@
+#authButtons {
+  margin-left: auto;
+}
+
+#menuAnchor {
+  font-family: inherit;
+  padding: 10px 15px;
+}
+
+#user-menu a, #auth-menu a {
+  font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-wrapper a {  
+  font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo {
+  padding-left: 15px;
+}
+
+svg {
+  margin-right: 5px;
+}
+
+.brand-logo h1 {
+  font-size: 2.3rem !important;
+}
+
+@media only screen and (max-width: 481px) {
+  .brand-logo h1 {
+    font-size: 1.85rem !important;
+  }
+
+  #menuAnchor {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
